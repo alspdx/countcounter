@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron col-md-12 bg-primary text-light">
+          <h1 class="display-2">Count's Counter</h1>
+        </div>
+      </div>
+      <div class="row">
+        <form id="user-input">
+          <div class="form-group">
+            <label for="count-start">Where do you wanna start?</label>
+            <input type="text" id="count-start" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="count-to">How high do you wanna go?</label>
+            <input type="text" id="count-to" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="count-by">What number do you wanna count by?</label>
+            <input type="text" id="count-by" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary">Count!</button>
+        </form>
+      </div>
+      <div class="row">
+        <div id="count-div" >
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
